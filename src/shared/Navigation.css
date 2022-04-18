@@ -1,0 +1,188 @@
+.nav_bg {
+    background-color: transparent;
+    width: 100%;
+    height: 154px;
+    position: fixed;
+    display: table;
+    z-index: 2000;
+    box-sizing: border-box;
+    padding: 77px 94px 0 94px;
+    top: 0;
+    transition: height 0.25s, padding 0.25s, background-color 0.25s;
+}
+.nva_wrapper {
+    width: 1250px;
+    margin: 0 auto;
+}
+.nav_bg_s {
+    background-color: var(--nfg);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: table;
+    z-index: 2000;
+    box-sizing: border-box;
+    padding: 36px 94px 0 94px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.06);
+    top: 0;
+    transition: height 0.25s, padding 0.25s, background-color 0.25s;
+}
+.nav_bg_s_hidden {
+    background-color: var(--nfg);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: table;
+    z-index: 2000;
+    box-sizing: border-box;
+    padding: 36px 94px 0 94px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.06);
+    top: 0;
+    transition: height 0.25s, padding 0.25s, background-color 0.25s;
+}
+.nav_left {
+    float: left;
+}
+.logo {
+    z-index: 3;
+    margin-right: 7px;
+}
+.ointext {
+    position: absolute;
+    opacity: 0;
+    margin-top: 2px;
+    transition: opacity 0.2s;
+    fill: var(--text);
+}
+.nav_left:hover .ointext {
+    opacity: 0.2;
+}
+.ointext_a {
+    opacity: 1 !important;
+}
+.nav_right {
+    float: right;
+}
+.nav_right ul {
+    margin: 0;
+    display: table;
+}
+.nav_right ul li {
+    float: left;
+    list-style: none;
+}
+.nav_right_i {
+    float: left;
+    display: table-cell;
+    list-style: none;
+    vertical-align: middle;
+    margin-left: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    fill: var(--text) !important;
+}
+.nav_right_i:hover {
+    opacity: 1 !important;
+}
+.nav_right_a {
+    opacity: 1 !important;
+}
+#nav_menu {
+    margin-top: 4px;
+}
+.nav_mobile {
+    display: none;
+}
+.nav_mobile_hidden {
+    display: none;
+}
+
+@media ( max-width: 526px ) {
+    * {
+        cursor: default !important;
+    }
+    .nav_bg {
+        width: 94%;
+        left: 50%;
+        transform: translateX(-50%);
+        height:84px;
+        padding: 55px 35px 0 35px;
+        transition: background-color 0.2s, transform 0.2s;
+    }
+    .nav_bg_s {
+        width: 94%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15px;
+        box-shadow: 0 0 60px 0 rgba( 0, 0, 0, 0.1 );
+        border-radius: 20px;
+        height: 84px;
+        padding: 29px 35px 0 35px;
+        transition: background-color 0.2s, transform 0.2s;
+    }
+    .nav_bg_s_hidden {
+        transform: translate( -50%, -130px );
+    }
+    .nav_wrapper {
+        width: 100%;
+    }
+    .nav_right_i {
+        display: none;
+    }
+    .nav_right_i_m {
+        display: inline-block !important;
+    }
+    .nav_mobile {
+        position: fixed;
+        display: grid;
+        width: 94%;
+        height: 84px;
+        background-color: var(--nfg);
+        bottom: 15px;
+        z-index: 10000;
+        border-radius: 20px;
+        box-shadow: 0 0 60px 0 rgba( 0, 0, 0, 0.1 );
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        grid-template-columns: 23% 23% 23% 23%;
+        transition: transform 0.2s;
+    }
+    .nav_mobile_hidden {
+        position: fixed;
+        display: grid;
+        width: 94%;
+        height: 84px;
+        background-color: var(--n fg);
+        bottom: 15px;
+        z-index: 10000;
+        border-radius: 20px;
+        box-shadow: 0 0 60vpx 0 rgba( 0, 0, 0, 0.1 );
+        left: 50%;
+        justify-content: center;
+        grid-template-columns: 23% 23% 23% 23%;
+        transform: translate( -50%, 130px );
+        transition: transform 0.2s;
+    }
+    .nav_mobile_button_w {
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+    .nav_mobile_button {
+        display: inline-block;
+        transform: scale(0.86);
+        margin-top: 4px;
+        opacity: 0.3;
+        fill: var(--buttonnav);
+        transition: transform 0.1s, opacity 0.1s;
+    }
+    .nav_mobile_button:active {
+        opacity: 1;
+        transform: scale(0.78);
+    }
+    .nav_mobile_button_a {
+        opacity: 1;
+    }
+  }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.021" height="32.109" viewBox="0 0 1574.154 1122.684">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="492.906" y="718.656" width="1574.154" height="1122.684" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="492.906" y="718.656" width="1574.154" height="1122.684" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTU3NC4xNTQiIGhlaWdodD0iMTEyMi42ODQiIHZpZXdCb3g9IjAgMCAxNTc0LjE1NCAxMTIyLjY4NCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSI3MDAuMTI1IiB4Mj0iMTU3NC4xNTQiIHkyPSI0MjIuNTU5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiMzZTM5ZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxLjI1IiBzdG9wLWNvbG9yPSIjZmY2YWZhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxNTc0LjE1NCIgaGVpZ2h0PSIxMTIyLjY4NCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="모서리가_둥근_직사각형_1_복사_2" data-name="모서리가 둥근 직사각형 1 복사 2" class="cls-1" d="M717.435,718.646H1842.56c124,0,224.52,100.518,224.52,224.513s-100.52,224.511-224.52,224.511H717.435c-123.995,0-224.513-100.52-224.513-224.511S593.44,718.646,717.435,718.646Zm0,673.684H1167.56c124,0,224.52,100.52,224.52,224.51s-100.52,224.51-224.52,224.51H717.435c-123.995,0-224.513-100.51-224.513-224.51S593.44,1392.33,717.435,1392.33Zm1123.875,0H1842c124,0,224.52,100.52,224.52,224.51S1966,1841.35,1842,1841.35h-0.69c-124,0-224.51-100.51-224.51-224.51S1717.31,1392.33,1841.31,1392.33Z" transform="translate(-492.906 -718.656)"/>
+</svg>
