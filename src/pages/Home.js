@@ -23,7 +23,7 @@ class Home extends Component {
                         </button>
                         <button type="button" className="home_1_link">
                             <svg className="home_1_link_icon" width="30.07" height="28.19" viewBox="0 0 30.07 28.19"><path d="M15.531,9.265l-2.1,2.193,3.909,4.072H2v3.132H17.336l-3.909,4.072,2.1,2.193L23.049,17.1ZM29.063,28.058H17.035V31.19H29.063a3.081,3.081,0,0,0,3.007-3.132V6.132A3.081,3.081,0,0,0,29.063,3H17.035V6.132H29.063Z" transform="translate(-2 -3)" fill="#b990de"/></svg>
-                            익명 게시판 
+                            게시판
                         </button>
                     </div>
                 </div>

@@ -40,7 +40,7 @@ class Navigation extends Component {
                 <div className={this.state.scrolled ? `${this.state.scrolling ? 'nav_bg_s_hidden' : 'nav_bg_s'}` :  `${this.state.scrolling ? 'nav_bg' : 'nav_bg'}`}>
                     <div className="nav_wrapper">
                         <div className="nav_left">
-                        <NavLink exact to="/" className="logo" activeClassName="logo_a">로고</NavLink>
+                        <NavLink exact to="/" className="logo" activeClassName="logo_a"><svg width="24" height="30" viewBox="0 0 24 30"><path d="" transform="translate(-4.414 -2.5)"/></svg></NavLink>
                         </div>
                         <div className="nav_right">
                             <ul>
